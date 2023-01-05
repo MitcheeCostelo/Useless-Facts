@@ -68,3 +68,19 @@ button {
     border-style: none;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #3590f3;
+    transition: 0.5s;
+}
+
+.animation {
+    opacity: 0;
+    transition: all 0.05s ease;
+    transform: translateY(0.25rem);
+}
+
+.animation.fade {
+    opacity: 1;
+    transform: translateY(0rem);
+}
